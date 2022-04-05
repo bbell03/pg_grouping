@@ -60,7 +60,7 @@ const dataSource = new PivotGridDataSource({
     caption: 'Organic',
     dataField: 'organic',
     customizeText: function (cellInfo) {
-      return JSON.stringify(cellInfo.value) + 'hello';
+      return JSON.stringify(cellInfo.value) + ' organic';
     },
     width: 150,
   }, {
