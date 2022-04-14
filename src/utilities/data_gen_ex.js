@@ -30,7 +30,7 @@ let vegetable = ['lettuce', 'kale', 'carrot'];
 let fruit = ['apple', 'strawberry', 'banana'];
 
 
-let keys = ["organic", "type", "name", "date", "price"];
+var keys = ["organic", "type", "name", "date", "price"];
 
 function JSONFactory(keys) {
   let obj = {}
@@ -60,7 +60,7 @@ function JSONFactory(keys) {
   return obj;
 }
 
-function ArrayGenerator(length) {
+export function ArrayGenerator(length) {
   let json_store = []
   for (let i = 0; i < length; i++) {
     json_store.push(JSONFactory(keys));
@@ -68,3 +68,5 @@ function ArrayGenerator(length) {
   return json_store;
 }
 
+
+export {keys};
