@@ -1,5 +1,5 @@
 import React, { useRef, createRef } from "react";
-import { ArrayGenerator } from "../utilities/data_gen_ex.js";
+import {data} from "../utilities/data";
 import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
 
 import Chart, {
@@ -11,8 +11,8 @@ import Chart, {
 
 import PivotGrid, { FieldChooser } from "devextreme-react/pivot-grid";
 
-let data = ArrayGenerator(1000);
-console.log(data);
+// let data = ArrayGenerator(1000);
+// console.log(data);
 
 class App extends React.Component {
   constructor(props) {
