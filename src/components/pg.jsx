@@ -63,6 +63,7 @@ class App extends React.Component {
   }
 
   render() {
+    console.log(data);
     return (
       <React.Fragment>
         <button onClick={this.mainState}>Pivot 1</button>
