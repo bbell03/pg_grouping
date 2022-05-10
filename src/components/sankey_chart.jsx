@@ -19,7 +19,7 @@ class SankeyChart extends React.Component {
         sourceField="source"
         targetField="target"
         weightField="weight"
-        title="Commodity Turnover in 2017"
+        title="Commodity Turnover in 1953"
       >
         <Tooltip
           enabled={true}

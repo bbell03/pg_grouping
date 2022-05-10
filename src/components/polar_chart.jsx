@@ -6,8 +6,7 @@ import {
   Series,
   Margin,
 } from 'devextreme-react/polar-chart';
-import { types, data } from '.././utilities/data.js';
-import {polar_data} from '.././utilities/data';
+import {types, polar_data} from '.././utilities/data';
 console.log("polar_data");
 console.log(polar_data);
 const dataSource = polar_data;
